@@ -1,0 +1,117 @@
+.wrap{
+	min-height: 100%;
+	margin-bottom: -15px;
+}
+
+.after{
+	content:"";
+	display: block;
+	height: 700px;
+}
+
+.foot{
+	position: fixed;
+	margin: 0;
+	bottom: 0;
+	width: 100%;
+	height: 24px;
+	text-align: center;
+	background: gray;
+}
+
+h1{
+	background-color:#c3c6e0;
+	color: #0f55d6;
+	text-align: center-left;
+	text-decoration: underline;
+	text-shadow: 3px 1px white;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 55px;
+	margin: 0;
+}
+
+body{
+	background-color: #e9eaf7;
+	height: 100%;
+}
+
+p{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 24px;
+}
+
+p.fixed{
+	position: fixed;
+	bottom: 1;
+	right:0;
+	width: 350px;
+}
+
+#Menu, ul, li, li li {
+    margin: 0;
+    padding: 0;
+}
+
+#Menu{
+	width: 200px;
+	height: 27px;
+}
+
+#Menu ul{
+	line-height: 25px;
+}
+
+#Menu li {
+	list-style: none;
+    position: relative;
+    background: gray;
+}
+
+#Menu li li {
+	list-style: none;
+	position: relative;
+	background: gray;
+	left: 200px;
+	top: -27px;
+}
+
+#Menu ul li a {
+	width: 200px;
+	height: 25px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	color:#ffffff;
+	border:1px solid #eee;
+}
+
+#Menu ul ul {
+	position: absolute;
+	visibility: hidden;
+	top: 27px;
+}
+
+#Menu ul li:hover ul {
+	visibility: visible;
+}
+
+#Menu li:hover {
+	background-color: blue;
+	border-color:white;
+}
+
+#Menu ul li:hover ul li a:hover {
+	background-color: blue;
+	border-color:white;
+}
+
+#Menu a:hover {
+font-weight: bold;
+}
+
+
+
+
+
+
